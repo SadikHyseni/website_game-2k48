@@ -7,8 +7,11 @@ renowned 2048 puzzle game. The vision is to provide players of all skill levels 
 enjoyable and challenging gaming experience. The project encompasses various 
 functionalities, including registration, login, error handling, input validation, music and 
 a global rankings system.
+
 Description of the Website:
+
 A Gateway to the 2k48 Puzzle
+
 The 2k48 Puzzle website is a comprehensive online gaming platform that brings the 
 beloved 2048 puzzle game to a global audience. Boasting an engaging and strategic 
 gameplay experience, the platform encourages players to think critically, solve 
@@ -26,11 +29,15 @@ represents a holistic approach to online gaming, providing entertainment, foster
 competition, and instilling a sense of achievement for players worldwide. Welcome to 
 the future of online gaming – where every move counts and victories are celebrated 
 on a global scale.
+
 Functionality Description:
+
 Game functionality:
+
 The gameplay of the game “2048” is a relatively simple yet highly addictive puzzle 
 game. The objective of the game is to combine numbered tiles on a 4 x 4 grid to reach 
 the tile with the number 2048, hence the name of the game.
+
 1. Board setup: The game begins with a 4x4 grid, and two tiles with the number 
 2 are randomly placed on the grid.
 2. Tile Movement: You can move the tiles in four directions with the Arrows keys: 
@@ -54,6 +61,7 @@ the game is won once the user reaches the tile with the number 8129.
 6. Losing: The game is over when the grid is full, and no more valid moves can be 
 made. If there are no empty spaces for new tiles and no adjacent tiles with the 
 same value to merge, the game ends, and your final score is displayed.
+
 Registration and Login functionality:
 The registration process invites users to unlock the full potential of the gaming 
 experience by providing essential information such as their name, last name, chosen 
@@ -67,6 +75,7 @@ player's details. This allows the user to keep track of their gaming score. If t
 a higher score, the player's score is updated, and their position on the leaderboard is 
 displayed on the global leaderboard. This personalized login experience adds a layer 
 of engagement and competition to the gaming platform.
+
 Error Handling/Input Validation functionality:
 To ensure a seamless user experience, robust error-handling mechanisms guide users 
 through potential issues during both registration and login. The input fields are 
@@ -83,6 +92,7 @@ password is weak a message will appear and ask for capitals or numbers to make t
 password, if the username is too long or too short a message will appear and ask for 
 a 6 to 12 digits password, if the username is taken then a message will appear and ask 
 again for a different username or if it less than 3 characters is too short.
+
 Rankings Functionality:
 The platform incorporates a dynamic global leaderboard that showcases the best 
 scores achieved by players worldwide. The system compiles and sorts registered users 
@@ -92,7 +102,6 @@ experience, fostering a sense of community and achievement among players. The
 global leaderboard serves not only as a testament to individual accomplishments but 
 also as a source of motivation for players to strive for higher scores and recognition 
 within the gaming community.
-
 
 Project Screenshots:
 
