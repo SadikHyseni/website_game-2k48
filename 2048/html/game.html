@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2k48 Home page</title>
+        <link rel="stylesheet" href="../css/2k48.css" > <!-- Link to the stylesheet -->
+        <script src="../javascript/2048.js"></script> <!-- Link to the JavaScript file -->
+    </head>
+    <body>
+        <div>
+            <!-- Background image -->
+            <img src="../image/ORS97Z0.jpg" alt="game_background"
+                id="background-image">
+
+            <!-- Navigation bar -->
+            <div class="navigation_bar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <!-- Link to the Home page -->
+                    <li><a href="login.html">Log in/Register</a></li>
+                    <!-- Link to the Login/Register page -->
+                    <li><a href="how_to_play.html">How to play</a></li>
+                    <!-- Link to the How to Play page -->
+                    <li><a href="Q&As.html">FAQ</a></li>
+                    <!-- Link to the FAQ page -->
+                </ul>
+            </div>
+            <!-- Game logo -->
+            <img src="../image/logo.jpg" alt="game logo" id="logo">
+
+            <!-- Button for showing game instructions -->
+            <div id="showInstructionsButton" class="show-button">?</div>
+
+            <audio id="backgroundMusic" src="../audio/backgourn-music.mp3" preload="auto" autoplay="" loop></audio>
+
+            <div id="Music" class="show-Music-button">♬</div>
+
+            <audio id="swoosh" src="../audio/swoosh.mp3" preload="auto" autoplay=""></audio>
+
+            <!-- Game instructions -->
+            <div class="instructions hidden" id="instructions">
+                <div class="row">
+                    <h7>Dont know how to start? </h7> <!-- Instruction title -->
+                </div>
+                <div class="row">
+                    <h7>USE THE ARROWS KEYS</h7>
+                    <!-- Instruction to use arrow keys -->
+                </div>
+                <div class="row">
+                    <img
+                        src="../image/pngtree-keyboard-arrow-keys-color-png-image_7275991.png"
+                        alt="arrows" class="arrows"> <!-- Arrow keys image -->
+                </div>
+                <div class="row">
+                    <h7>OR</h7> <!-- Alternative instruction -->
+                </div>
+                <div class="row">
+                    <h7>USE THE W, A, S, D KEYS</h7>
+                    <!-- Instruction to use W, A, S, D keys -->
+                </div>
+                <div class="row">
+                    <img src="../image/7821023.png" alt="alternative arrows"
+                        class="arrows"> <!-- Alternative arrow keys image -->
+                </div>
+            </div>
+
+            <h6>2k48</h6> <!--game Title-->
+            <hr> <!-- Horizontal line -->
+
+            <!-- Score container -->
+            <div class="score-box">
+                <span id="score">0</span> <!-- Element to display the score -->
+                <p>Score</p> <!-- Label for the score -->
+            </div>
+
+            <!-- Best score container -->
+            <div class="Best-score-box">
+                <span id="Best_score">0</span>
+                <!-- Element to display the best score -->
+                <p>Best Score</p> <!-- Label for the best score -->
+            </div>
+
+            <!-- Board container -->
+            <div id="board">
+                <!-- This is where the game board content will be displayed -->
+            </div>
+
+            <!-- Element to display "Winner!!" message (initially hidden) -->
+            <div id="Winner" class="hidden">Winner!!</div>
+
+            <!-- Element to display "Game Over!!" message (initially hidden) -->
+            <div id="game-over" class="hidden">Game Over!!</div>
+            
+
+            <!-- Reset button -->
+            <button id="resetButton" onclick="resetGame()">Reset Game</button>
+            <!-- Button to reset the game when clicked -->
+
+            <!-- Leaderboard container -->
+            <div class="leaderboard-container">
+                <!-- Header box -->
+                <div class="leaderboard-header">
+                    <h2 class="leaderboard-title">Leaderboard</h2>
+                </div>
+                <!-- Header section for the leaderboard -->
+
+                <div class="leaderboard">
+                    <table id="leaderboard-table">
+                        <tr class="header-row">
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Score</th>
+                        </tr>
+                        <!-- User data rows will be added dynamically below -->
+                    </table>
+                </div>
+                <!-- Table to display the leaderboard data, initially empty -->
+            </div>
+
+            <div class="footer">
+                <a href="https://github.com/SadikHyseni">&copy; 2023 2k48 Game. All rights reserved.</a>
+            </div>
+        </div>
+    </body>
+</html>

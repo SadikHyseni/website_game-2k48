@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login/Register 2k48</title>
+        <link rel="stylesheet" href="../css/2k48.css">
+    </head>
+
+    <body>
+        <!-- Background image -->
+        <img src="../image/ORS97Z0.jpg" alt="game_background"
+            id="background-image">
+        <!-- Navigation bar -->
+        <div class="navigation_bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <!-- Link to the Home page -->
+                <li><a href="login.html">Log in/Register</a></li>
+                <!-- Link to the Login/Register page -->
+                <li><a href="how_to_play.html">How to play</a></li>
+                <!-- Link to the How to Play page -->
+                <li><a href="Q&As.html">FAQ</a></li>
+                <!-- Link to the FAQ page -->
+            </ul>
+        </div>
+
+        <!-- Login Form -->
+        <div class="center">
+            <h5>Log in</h5> <!-- Title for the login form -->
+            <form method="post" id="login-form">
+                <!-- A form element for user login -->
+                <div class="txt_field">
+                    <input type="text" id="usernameField" name="loginUsername"
+                        required> <!-- Username input field -->
+                    <span></span>
+                    <label>Username</label>
+                    <!-- Label for the username input field -->
+                </div>
+                <div class="txt_field">
+                    <input type="password" id="passwordField"
+                        name="loginPassword" required>
+                    <!-- Password input field -->
+                    <span></span>
+                    <label>Password</label>
+                    <!-- Label for the password input field -->
+                </div>
+                <input type="submit" value="Login" id="loginButton">
+                <!-- Login button -->
+                <div class="signup_link">
+                    Not a member? <a href="../html/Registration.html"
+                        id="signup-link">Sign up</a>
+                    <!-- Link to the registration page -->
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <a href="https://github.com/SadikHyseni">&copy; 2023 2k48 Game. All rights reserved.</a>
+            <!-- Copyright footer -->
+        </div>
+
+        <script src="../javascript/Login.js"></script>
+        <!-- Reference to the JavaScript file for login functionality -->
+    </body>
+</html>

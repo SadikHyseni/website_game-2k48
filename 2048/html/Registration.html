@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login/Register 2k48</title>
+        <link rel="stylesheet" href="../css/2k48.css" />
+    </head>
+
+    <body>
+        <!-- Background image -->
+        <img src="../image/ORS97Z0.jpg" alt="game_background"
+            id="background-image">
+        <!-- Navigation bar -->
+        <div class="navigation_bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <!-- Link to the Home page -->
+                <li><a href="login.html">Log in/Register</a></li>
+                <!-- Link to the Login/Register page -->
+                <li><a href="how_to_play.html">How to play</a></li>
+                <!-- Link to the How to Play page -->
+                <li><a href="Q&As.html">FAQ</a></li>
+                <!-- Link to the FAQ page -->
+            </ul>
+        </div>
+
+        <!-- Registration Box -->
+        <div class="center">
+            <h5>Register</h5>
+            <!-- Registration title -->
+            <!-- Registration form with method "post" -->
+            <form method="post" id="registration-form">
+                <!-- Input field for first name -->
+                <div class="txt_field">
+                    <input type="text" id="first-name" name="signFirstName"
+                        required />
+                    <!-- User's first name -->
+                    <span></span>
+                    <label>Name</label>
+                    <!-- Label for the input field -->
+                </div>
+                <!-- Input field for last name -->
+                <div class="txt_field">
+                    <input type="text" id="last-name" name="signLastName"
+                        required />
+                    <!-- User's last name -->
+                    <span></span>
+                    <label>Last name</label>
+                    <!-- Label for the input field -->
+                </div>
+                <!-- Input field for username -->
+                <div class="txt_field">
+                    <input type="text" id="username" name="signUsername"
+                        required />
+                    <!-- User's chosen username -->
+                    <span></span>
+                    <label>Username</label>
+                    <!-- Label for the input field -->
+                </div>
+                <!-- Input field for password -->
+                <div class="txt_field">
+                    <input type="password" id="password" name="signupPassword"
+                        required />
+                    <!-- User's chosen password -->
+                    <span></span>
+                    <label>Password</label>
+                    <!-- Label for the input field -->
+                </div>
+                <input type="submit" value="Register" />
+                <!-- Registration submit button -->
+                <div class="login_link">
+                    Already a member?
+                    <a href="../html/Login.html" id="login-link">Log in</a>
+                    <!-- Link to the login page for existing members -->
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <a href="https://github.com/SadikHyseni">&copy; 2023 2k48 Game. All rights reserved.</a>
+            <!-- Copyright footer -->
+        </div>
+
+        <script src="../javascript/Registration.js"></script>
+        <!-- Link to the JavaScript file for registration handling -->
+    </body>
+</html>
