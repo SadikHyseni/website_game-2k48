@@ -63,6 +63,7 @@ made. If there are no empty spaces for new tiles and no adjacent tiles with the
 same value to merge, the game ends, and your final score is displayed.
 
 Registration and Login functionality:
+
 The registration process invites users to unlock the full potential of the gaming 
 experience by providing essential information such as their name, last name, chosen 
 username, and password. After the password is entered, it is safely decrypted by the 
@@ -77,6 +78,7 @@ displayed on the global leaderboard. This personalized login experience adds a l
 of engagement and competition to the gaming platform.
 
 Error Handling/Input Validation functionality:
+
 To ensure a seamless user experience, robust error-handling mechanisms guide users 
 through potential issues during both registration and login. The input fields are 
 mandatory, emphasizing the necessity of providing complete information. Clear and 
@@ -94,6 +96,7 @@ a 6 to 12 digits password, if the username is taken then a message will appear a
 again for a different username or if it less than 3 characters is too short.
 
 Rankings Functionality:
+
 The platform incorporates a dynamic global leaderboard that showcases the best 
 scores achieved by players worldwide. The system compiles and sorts registered users 
 from the local storage based on their best scores, presenting the rankings from the 
