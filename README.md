@@ -1,6 +1,7 @@
  Game Website: 2k48 Puzzle Game
 
 Introduction:
+
 The "2k48" project is an immersive online gaming website centered around the 
 renowned 2048 puzzle game. The vision is to provide players of all skill levels with an 
 enjoyable and challenging gaming experience. The project encompasses various 
